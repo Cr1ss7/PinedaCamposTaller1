@@ -8,7 +8,7 @@ const fecha2 = new Date("2022-9-09");
 //funcion principal
 function init() {
   do{
-    opcion = prompt("Dijite 1 Para ealizar un prestamo\nDigite 2 para obtener la tabla"); 
+    opcion = prompt("Dijite 1 Para realizar un prestamo\nDigite 2 para obtener la tabla"); 
     switch (opcion) {
       case "1":
         opcion = 0;
